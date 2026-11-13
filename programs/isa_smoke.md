@@ -45,4 +45,4 @@
 make test
 ```
 
-Тест `tb_soc` загружает `programs/isa_smoke.hex` в `Instruction_ROM`, ждёт `halt` и проверяет перечисленные ячейки RAM и строку матрицы. Волновая диаграмма — `sim_build/tb_soc.vcd`.
+Тест `tb_soc` загружает `programs/isa_smoke.hex` в `Instruction_ROM`, ждёт `halt` и проверяет перечисленные ячейки RAM и строку матрицы. Временная диаграмма — `sim_build/tb_soc.vcd`.

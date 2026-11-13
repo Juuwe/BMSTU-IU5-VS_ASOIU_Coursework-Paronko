@@ -56,4 +56,4 @@ make test
 PASS tb_task3: 20 checks, ...
 ```
 
-Волновая диаграмма: `sim_build/tb_task3.vcd`.
+Временная диаграмма: `sim_build/tb_task3.vcd`.
