@@ -1,0 +1,24 @@
+# Внутренние материалы, спеки и методички
+docs/
+specs/
+materials/
+
+# Артефакты симуляции и синтеза
+*.vcd
+*.fst
+*.vvp
+*.out
+sim_build/
+results.xml
+obj_dir/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Редакторы и ОС
+.vscode/
+.idea/
+*.swp
+.DS_Store
