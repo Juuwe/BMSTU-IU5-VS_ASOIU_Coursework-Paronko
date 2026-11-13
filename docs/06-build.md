@@ -62,9 +62,10 @@ Makefile
 variant.py
 ```
 
-## 4. Схема
+## 4. Схема и диаграммы
 
-[report/rtl-schema.drawio](../report/rtl-schema.drawio)
+- [PNG-превью архитектуры](../report/rtl-schema.png) · [drawio](../report/rtl-schema.drawio)
+- [Временные диаграммы](waveforms/README.md)
 
 ## 5. Синтез
 

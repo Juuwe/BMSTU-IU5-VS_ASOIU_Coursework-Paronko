@@ -24,3 +24,6 @@ __pycache__/
 .idea/
 *.swp
 .DS_Store
+
+# Временные диаграммы, приложенные к документации
+!docs/waveforms/*.vcd

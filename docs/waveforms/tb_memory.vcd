@@ -1,0 +1,285 @@
+$date
+	Fri Nov 13 23:43:35 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_memory $end
+$var wire 1 ! mmio_we $end
+$var wire 16 " mmio_wdata [15:0] $end
+$var wire 8 # mmio_addr [7:0] $end
+$var wire 128 $ matrix_rows [127:0] $end
+$var wire 32 % instr_data [31:0] $end
+$var wire 16 & data_rdata [15:0] $end
+$var reg 1 ' clk $end
+$var reg 16 ( data_addr [15:0] $end
+$var reg 16 ) data_wdata [15:0] $end
+$var reg 1 * data_we $end
+$var reg 10 + instr_addr [9:0] $end
+$var reg 16 , mmio_rdata [15:0] $end
+$var reg 1 - reset $end
+$var integer 32 . checks [31:0] $end
+$var integer 32 / errors [31:0] $end
+$scope module dut $end
+$var wire 1 ' clk $end
+$var wire 16 0 data_addr [15:0] $end
+$var wire 16 1 data_wdata [15:0] $end
+$var wire 1 * data_we $end
+$var wire 10 2 instr_addr [9:0] $end
+$var wire 1 3 matrix_we $end
+$var wire 16 4 mmio_rdata [15:0] $end
+$var wire 16 5 mmio_wdata [15:0] $end
+$var wire 1 ! mmio_we $end
+$var wire 1 6 ram_we $end
+$var wire 1 - reset $end
+$var wire 1 7 sel_ram $end
+$var wire 1 8 sel_mmio $end
+$var wire 1 9 sel_matrix $end
+$var wire 16 : ram_rdata [15:0] $end
+$var wire 8 ; mmio_addr [7:0] $end
+$var wire 128 < matrix_rows [127:0] $end
+$var wire 16 = matrix_rdata [15:0] $end
+$var wire 32 > instr_data [31:0] $end
+$var wire 16 ? data_rdata [15:0] $end
+$var parameter 0 @ RAM_FILE $end
+$var parameter 0 A ROM_FILE $end
+$scope module u_ram $end
+$var wire 10 B addr [9:0] $end
+$var wire 1 ' clk $end
+$var wire 16 C wd [15:0] $end
+$var wire 1 6 we $end
+$var parameter 0 D INIT_FILE $end
+$var reg 16 E rd [15:0] $end
+$var integer 32 F i [31:0] $end
+$upscope $end
+$scope module u_rom $end
+$var wire 10 G addr [9:0] $end
+$var wire 1 ' clk $end
+$var parameter 0 H INIT_FILE $end
+$var reg 32 I data [31:0] $end
+$var integer 32 J i [31:0] $end
+$upscope $end
+$scope module u_video $end
+$var wire 3 K addr [2:0] $end
+$var wire 1 ' clk $end
+$var wire 1 - reset $end
+$var wire 16 L wd [15:0] $end
+$var wire 1 3 we $end
+$var wire 128 M rows [127:0] $end
+$var reg 16 N rd [15:0] $end
+$var integer 32 O i [31:0] $end
+$upscope $end
+$upscope $end
+$scope task check_read $end
+$var reg 16 P addr [15:0] $end
+$var reg 16 Q exp [15:0] $end
+$upscope $end
+$scope task write_word $end
+$var reg 16 R addr [15:0] $end
+$var reg 16 S value [15:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b H
+b D
+b A
+b @
+$end
+#0
+$dumpvars
+bx S
+bx R
+bx Q
+bx P
+bx O
+bx N
+bx M
+b0 L
+b0 K
+b10000000000 J
+bx I
+b0 G
+b10000000000 F
+bx E
+b0 C
+b0 B
+bx ?
+bx >
+bx =
+bx <
+b0 ;
+bx :
+09
+08
+17
+06
+b0 5
+b101011001111000 4
+03
+b0 2
+b0 1
+b0 0
+b0 /
+b0 .
+1-
+b101011001111000 ,
+b0 +
+0*
+b0 )
+b0 (
+0'
+bx &
+bx %
+bx $
+b0 #
+b0 "
+0!
+$end
+#5000
+b0 &
+b0 ?
+b0 %
+b0 >
+b0 I
+b0 :
+b0 E
+b0 =
+b0 N
+b0 $
+b0 <
+b0 M
+b1000 O
+1'
+#10000
+0'
+#15000
+b1000 O
+1'
+#20000
+0-
+0'
+#25000
+1'
+#26000
+16
+b10000 #
+b10000 ;
+b10000 B
+1*
+b1010101111001101 "
+b1010101111001101 5
+b1010101111001101 )
+b1010101111001101 1
+b1010101111001101 C
+b1010101111001101 L
+b10000 (
+b10000 0
+b1010101111001101 S
+b10000 R
+b1 .
+#30000
+0'
+#35000
+1'
+#36000
+06
+b1010101111001101 Q
+b10000 P
+0*
+#40000
+0'
+#45000
+b1010101111001101 &
+b1010101111001101 ?
+b1010101111001101 :
+b1010101111001101 E
+1'
+#46000
+b0 &
+b0 ?
+13
+07
+19
+b0 #
+b0 ;
+b0 B
+1*
+b10100101 "
+b10100101 5
+b10100101 )
+b10100101 1
+b10100101 C
+b10100101 L
+b1000000000000 (
+b1000000000000 0
+b10100101 S
+b1000000000000 R
+b10 .
+#50000
+0'
+#55000
+b10100101 $
+b10100101 <
+b10100101 M
+b0 :
+b0 E
+1'
+#56000
+03
+b10100101 Q
+b1000000000000 P
+0*
+#60000
+0'
+#65000
+b10100101 &
+b10100101 ?
+b10100101 =
+b10100101 N
+1'
+#66000
+b101011001111000 &
+b101011001111000 ?
+1!
+09
+18
+b10000 #
+b10000 ;
+b10000 B
+1*
+b1001000110100 "
+b1001000110100 5
+b1001000110100 )
+b1001000110100 1
+b1001000110100 C
+b1001000110100 L
+b1111000000010000 (
+b1111000000010000 0
+b100 .
+#67000
+0!
+0*
+b101 .
+#68000
+b0 &
+b0 ?
+08
+b0 #
+b0 ;
+b0 B
+b10000000000000 (
+b10000000000000 0
+b0 Q
+b10000000000000 P
+b110 .
+#70000
+0'
+#75000
+1'
+#76000
+b111 .

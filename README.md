@@ -1,5 +1,19 @@
 # Курсовая работа
 
+## Артефакты для проверки
+
+| Что | Где |
+|---|---|
+| ISA Manual | [docs/02-isa.md](docs/02-isa.md) |
+| Архитектура | [docs/01-architecture.md](docs/01-architecture.md) |
+| Блок-схема | [PNG](report/rtl-schema.png) · [drawio](report/rtl-schema.drawio) |
+| Временные диаграммы | [docs/waveforms/README.md](docs/waveforms/README.md) |
+| Быстрый просмотр `tb_task3` | [PNG](docs/waveforms/tb_task3-zoom.png) |
+| Быстрый просмотр `tb_soc` | [PNG](docs/waveforms/tb_soc-zoom.png) |
+| Тесты | [docs/04-verification.md](docs/04-verification.md) · [tb/](tb/) |
+| Программы | [docs/05-programs.md](docs/05-programs.md) · [programs/task3.hex](programs/task3.hex) |
+| Сборка | [docs/06-build.md](docs/06-build.md) |
+
 ## 1. Тема и декомпозиция на технические требования
 
 **Тема:** разработка 16-битного процессорного ядра с собственной ISA, гарвардской памятью, MMIO-декодером и SoC на Verilog.

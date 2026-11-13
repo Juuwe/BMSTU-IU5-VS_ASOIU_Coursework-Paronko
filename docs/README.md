@@ -42,10 +42,11 @@ PASS tb_task3
 | [04-verification.md](04-verification.md) | тестбенчи, `make test`/`make lint`, VCD, результаты |
 | [05-programs.md](05-programs.md) | машинный код, программа №23, `isa_smoke`, формат `.hex` |
 | [06-build.md](06-build.md) | зависимости, команды сборки, структура репозитория, синтез |
+| [waveforms/README.md](waveforms/README.md) | временные диаграммы: PNG-превью и VCD |
 
 ## Схема архитектуры
 
-[Открыть схему SoC](../report/rtl-schema.drawio)
+[PNG-превью](../report/rtl-schema.png) · [drawio](../report/rtl-schema.drawio)
 
 ## Структура репозитория
 
