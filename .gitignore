@@ -5,7 +5,7 @@ docs/REFERENCE-NISAKOO.md
 specs/
 materials/
 
-# Артефакты симуляции и синтеза
+# Файлы симуляции и синтеза
 *.vcd
 *.fst
 *.vvp
